@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Well come to images!')
 })
 
-app.get('/iamges', (req, res) => {
+app.get('/images', (req, res) => {
   res.send('Well come to /images paht!')
 })
 
