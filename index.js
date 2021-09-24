@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Well come to images!')
 })
 
+app.get('/iamges', (req, res) => {
+  res.send('Well come to /images paht!')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
